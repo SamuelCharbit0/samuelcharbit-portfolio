@@ -365,12 +365,20 @@ h2 {
     margin-bottom: 20px;
 }
 
+.veille-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+
 /* FIX POUR LES BOUTONS (Pour éviter qu'ils soient énormes) */
 .veille-item .btn-download {
     align-self: center;
     padding: 10px 25px;
     font-size: 1rem;
-    margin-top: 16px; /* Pousse le bouton vers le bas si besoin */
+    margin-top: 0;
 }
 
 /* --- CONTACT --- */
